@@ -9,7 +9,7 @@ public class HelloWorld {
 	
 	@RequestMapping("/world")
 	public String helloWorld() {
-		return "hello world ssfhdsk ffdf ggggggg";
+		return "hello world ssfhdsk ffdf ggggggg ggggg";
 	}
 
 }
