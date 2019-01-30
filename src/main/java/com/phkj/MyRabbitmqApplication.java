@@ -19,6 +19,7 @@ import org.springframework.context.annotation.Bean;
 public class MyRabbitmqApplication {
 	final static String queneName = "hello";
 	
+	
 	@Bean
 	public Queue helloQueue() {
 		return new Queue("hello");
